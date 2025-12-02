@@ -39,8 +39,8 @@ const Contact = () => {
                                         <Phone className="h-8 w-8" />
                                     </div>
                                     <h3 className="font-bold text-gray-900 mb-2 group-hover:text-primary transition-colors">Call Us</h3>
-                                    <p className="text-gray-600 text-sm">+92 71 5644000</p>
-                                    <p className="text-gray-600 text-sm">+92 71 5644020</p>
+                                    <p className="text-gray-600 text-sm">+92 333 3886321</p>
+
                                 </Card>
                             </motion.div>
                             <motion.div whileHover={{ y: -10 }}>
@@ -49,8 +49,8 @@ const Contact = () => {
                                         <Mail className="h-8 w-8" />
                                     </div>
                                     <h3 className="font-bold text-gray-900 mb-2 group-hover:text-primary transition-colors">Email Us</h3>
-                                    <p className="text-gray-600 text-sm">info@iba-suk.edu.pk</p>
-                                    <p className="text-gray-600 text-sm">admissions@iba-suk.edu.pk</p>
+                                    <p className="text-gray-600 text-sm">info@fatimapublicschool.edu.pk</p>
+                                    <p className="text-gray-600 text-sm">admissions@fatimapublicschool.edu.pk</p>
                                 </Card>
                             </motion.div>
                             <motion.div whileHover={{ y: -10 }}>

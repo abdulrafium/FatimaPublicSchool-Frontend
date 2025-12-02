@@ -4,19 +4,26 @@ import { User, GraduationCap, ShieldCheck } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import Button from '../../components/Button';
 import Input from '../../components/Input';
+import LoadingSpinner from '../../components/LoadingSpinner';
 
 const Login = () => {
     const [activeTab, setActiveTab] = useState('student');
+    const [isLoading, setIsLoading] = useState(false);
     const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
-        // Dummy login logic
-        if (activeTab === 'admin') {
-            navigate('/admin');
-        } else {
-            alert(`Logged in as ${activeTab}`);
-        }
+        setIsLoading(true);
+
+        // Simulate network delay
+        setTimeout(() => {
+            setIsLoading(false);
+            if (activeTab === 'admin') {
+                navigate('/admin');
+            } else {
+                alert(`Logged in as ${activeTab}`);
+            }
+        }, 1500);
     };
 
     const tabs = [
@@ -99,8 +106,12 @@ const Login = () => {
                     </div>
                 </div>
 
-                <Button type="submit" className="w-full" size="lg">
-                    Sign in as {activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}
+                <Button type="submit" className="w-full" size="lg" disabled={isLoading}>
+                    {isLoading ? (
+                        <LoadingSpinner size={24} color="white" />
+                    ) : (
+                        `Sign in as ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}`
+                    )}
                 </Button>
             </motion.form>
         </div>

@@ -7,28 +7,28 @@ import Card from '../components/Card';
 
 const Admissions = () => {
     return (
-        <div className="bg-gray-50 min-h-screen py-12">
+        <div className="bg-gray-50 min-h-screen py-8 sm:py-12 overflow-x-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="text-center mb-16"
+                    className="text-center mb-10 sm:mb-16"
                 >
-                    <h1 className="text-4xl font-bold text-gray-900 mb-4">Admissions</h1>
-                    <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Admissions</h1>
+                    <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
                         Join our community of learners. Apply now for the upcoming academic session.
                     </p>
                 </motion.div>
 
-                <div className="grid lg:grid-cols-2 gap-12">
+                <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
                     {/* Information Section */}
                     <div className="space-y-8">
                         <section>
-                            <h2 className="text-2xl font-bold text-primary mb-4 flex items-center gap-2">
-                                <FileText className="h-6 w-6" />
+                            <h2 className="text-xl sm:text-2xl font-bold text-primary mb-4 flex items-center gap-2">
+                                <FileText className="h-5 w-5 sm:h-6 sm:w-6" />
                                 Admission Procedure
                             </h2>
-                            <div className="bg-white rounded-xl p-6 shadow-sm space-y-4">
+                            <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm space-y-4">
                                 {[
                                     'Submit the online admission form or visit the school office.',
                                     'Schedule an entrance test and interview.',
@@ -39,18 +39,18 @@ const Admissions = () => {
                                         <div className="w-6 h-6 bg-primary text-white rounded-full flex items-center justify-center flex-shrink-0 text-sm font-bold">
                                             {index + 1}
                                         </div>
-                                        <p className="text-gray-700">{step}</p>
+                                        <p className="text-gray-700 text-sm sm:text-base">{step}</p>
                                     </div>
                                 ))}
                             </div>
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-bold text-primary mb-4 flex items-center gap-2">
-                                <CheckCircle className="h-6 w-6" />
+                            <h2 className="text-xl sm:text-2xl font-bold text-primary mb-4 flex items-center gap-2">
+                                <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6" />
                                 Requirements
                             </h2>
-                            <div className="bg-white rounded-xl p-6 shadow-sm">
+                            <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm">
                                 <ul className="space-y-3">
                                     {[
                                         'Birth Certificate (Copy)',
@@ -58,7 +58,7 @@ const Admissions = () => {
                                         '2 Passport size photographs',
                                         'CNIC copy of parents'
                                     ].map((req, index) => (
-                                        <li key={index} className="flex items-center gap-2 text-gray-700">
+                                        <li key={index} className="flex items-center gap-2 text-gray-700 text-sm sm:text-base">
                                             <div className="w-2 h-2 bg-accent rounded-full" />
                                             {req}
                                         </li>
@@ -68,14 +68,14 @@ const Admissions = () => {
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-bold text-primary mb-4">Fee Structure</h2>
-                            <div className="bg-white rounded-xl shadow-sm overflow-hidden overflow-x-auto">
+                            <h2 className="text-xl sm:text-2xl font-bold text-primary mb-4">Fee Structure</h2>
+                            <div className="bg-white rounded-xl shadow-sm overflow-hidden overflow-x-auto w-full">
                                 <table className="min-w-full divide-y divide-gray-200">
                                     <thead className="bg-gray-50">
                                         <tr>
-                                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Class</th>
-                                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Admission Fee</th>
-                                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Monthly Fee</th>
+                                            <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Class</th>
+                                            <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Admission Fee</th>
+                                            <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Monthly Fee</th>
                                         </tr>
                                     </thead>
                                     <tbody className="bg-white divide-y divide-gray-200">
@@ -86,9 +86,9 @@ const Admissions = () => {
                                             { class: 'Class 9 - 10', admission: '30,000', monthly: '8,000' },
                                         ].map((row, index) => (
                                             <tr key={index}>
-                                                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{row.class}</td>
-                                                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">PKR {row.admission}</td>
-                                                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">PKR {row.monthly}</td>
+                                                <td className="px-4 sm:px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{row.class}</td>
+                                                <td className="px-4 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-500">PKR {row.admission}</td>
+                                                <td className="px-4 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-500">PKR {row.monthly}</td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -99,8 +99,8 @@ const Admissions = () => {
 
                     {/* Form Section */}
                     <div>
-                        <Card className="p-8 sticky top-24">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-6">Online Admission Inquiry</h2>
+                        <Card className="p-4 sm:p-6 lg:p-8 sticky top-24">
+                            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Online Admission Inquiry</h2>
                             <form className="space-y-6">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <Input label="Student Name" placeholder="Enter student name" />
