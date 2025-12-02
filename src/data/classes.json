@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Nursery",
+        "students": 30,
+        "teacher": "Ms. Amna"
+    },
+    {
+        "id": 2,
+        "name": "Prep",
+        "students": 32,
+        "teacher": "Ms. Hina"
+    },
+    {
+        "id": 3,
+        "name": "Class 1",
+        "students": 35,
+        "teacher": "Ms. Rabia"
+    },
+    {
+        "id": 4,
+        "name": "Class 2",
+        "students": 34,
+        "teacher": "Ms. Sadia"
+    },
+    {
+        "id": 5,
+        "name": "Class 3",
+        "students": 33,
+        "teacher": "Ms. Iqra"
+    },
+    {
+        "id": 6,
+        "name": "Class 4",
+        "students": 36,
+        "teacher": "Ms. Nida"
+    },
+    {
+        "id": 7,
+        "name": "Class 5",
+        "students": 38,
+        "teacher": "Mr. Ali"
+    },
+    {
+        "id": 8,
+        "name": "Class 6",
+        "students": 40,
+        "teacher": "Mr. Umer"
+    },
+    {
+        "id": 9,
+        "name": "Class 7",
+        "students": 42,
+        "teacher": "Mr. Hassan"
+    },
+    {
+        "id": 10,
+        "name": "Class 8",
+        "students": 45,
+        "teacher": "Mr. Bilal"
+    },
+    {
+        "id": 11,
+        "name": "Class 9",
+        "students": 50,
+        "teacher": "Mr. Hamza"
+    },
+    {
+        "id": 12,
+        "name": "Class 10",
+        "students": 48,
+        "teacher": "Mr. Usman"
+    }
+]

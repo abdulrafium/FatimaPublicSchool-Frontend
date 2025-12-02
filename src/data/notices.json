@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Summer Vacation",
+        "date": "2024-05-20",
+        "content": "School will remain closed from 1st June to 15th August for summer vacations."
+    },
+    {
+        "id": 2,
+        "title": "Annual Sports Day",
+        "date": "2024-03-15",
+        "content": "Annual sports day will be held on 25th March. All students must participate."
+    },
+    {
+        "id": 3,
+        "title": "Parent Teacher Meeting",
+        "date": "2024-02-10",
+        "content": "PTM will be held on 15th February to discuss mid-term results."
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Mr. Ahmed",
+        "role": "Parent",
+        "content": "Fatima Public School has excellent facilities and teachers.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop"
+    },
+    {
+        "id": 2,
+        "name": "Mrs. Zainab",
+        "role": "Parent",
+        "content": "My daughter loves going to school here. Highly recommended!",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
+    },
+    {
+        "id": 3,
+        "name": "Ali Raza",
+        "role": "Alumni",
+        "content": "The best school for building a strong academic foundation.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+    }
+]

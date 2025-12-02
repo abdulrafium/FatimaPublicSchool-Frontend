@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Mr. Bilal",
+        "subject": "Mathematics",
+        "qualification": "M.Sc Math",
+        "experience": "5 Years"
+    },
+    {
+        "id": 2,
+        "name": "Ms. Ayesha",
+        "subject": "English",
+        "qualification": "MA English",
+        "experience": "3 Years"
+    },
+    {
+        "id": 3,
+        "name": "Mr. Hamza",
+        "subject": "Physics",
+        "qualification": "M.Sc Physics",
+        "experience": "7 Years"
+    },
+    {
+        "id": 4,
+        "name": "Ms. Sana",
+        "subject": "Chemistry",
+        "qualification": "M.Sc Chemistry",
+        "experience": "4 Years"
+    },
+    {
+        "id": 5,
+        "name": "Mr. Usman",
+        "subject": "Computer Science",
+        "qualification": "BSCS",
+        "experience": "2 Years"
+    }
+]

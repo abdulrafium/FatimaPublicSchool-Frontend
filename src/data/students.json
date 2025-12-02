@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Ali Khan",
+        "class": "10th",
+        "rollNo": "1001",
+        "attendance": "95%",
+        "status": "Active"
+    },
+    {
+        "id": 2,
+        "name": "Fatima Ahmed",
+        "class": "9th",
+        "rollNo": "9001",
+        "attendance": "98%",
+        "status": "Active"
+    },
+    {
+        "id": 3,
+        "name": "Zainab Bibi",
+        "class": "8th",
+        "rollNo": "8001",
+        "attendance": "92%",
+        "status": "Active"
+    },
+    {
+        "id": 4,
+        "name": "Ahmed Raza",
+        "class": "10th",
+        "rollNo": "1002",
+        "attendance": "85%",
+        "status": "Active"
+    },
+    {
+        "id": 5,
+        "name": "Sara Ali",
+        "class": "7th",
+        "rollNo": "7001",
+        "attendance": "96%",
+        "status": "Active"
+    }
+]

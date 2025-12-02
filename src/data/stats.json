@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "label": "Students",
+        "value": "1500+",
+        "icon": "Users"
+    },
+    {
+        "id": 2,
+        "label": "Teachers",
+        "value": "80+",
+        "icon": "GraduationCap"
+    },
+    {
+        "id": 3,
+        "label": "Awards",
+        "value": "50+",
+        "icon": "Trophy"
+    },
+    {
+        "id": 4,
+        "label": "Years of Excellence",
+        "value": "25+",
+        "icon": "Building2"
+    }
+]
